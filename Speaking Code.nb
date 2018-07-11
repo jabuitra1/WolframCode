@@ -1,0 +1,115 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3524,        107]
+NotebookOptionsPosition[      3002,         89]
+NotebookOutlinePosition[      3354,        105]
+CellTagsIndexPosition[      3311,        102]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"ListLinePlot", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"StringLength", "[", 
+     RowBox[{"RomanNumeral", "[", "n", "]"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "100"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.740318604187196*^9, 3.74031863302964*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"8a086ad2-65a5-4cc5-9696-5e8644113600"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{}, {}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[1, 72], 0.013888888888888888`]], AbsoluteThickness[1.6], 
+     LineBox[CompressedData["
+1:eJxdlDlOQ0EQRFtEhAQEBASAEEIIIbPv/MFmMYsNNsZAiiDmCn20OZKPgBH9
+gi5LVumpumrmz3z95c+f4feMmX1N/3/6/5s0Wa1knRWdE3++5PyC+IuSX5Ke
+FZlflb418delb0P6NsXfknxL/G3J74TyXLsyvyd9++IfSN+h9B2Jfyz5E/FP
+JX8Wyjmfy/yF9DXil9znMH2X4sPk2+LD5Duhce/eyfN2FRrn5zD7vc7rOUz+
+RnyY/K34MPlu3q9387zdhcb75zD3fZ/Xc5j8g/gw+UfxYfK9vF/v5Xnr5z7v
+i/+U+xzm+Z+zX2D2I36FyQ9C4/zKIM87HH1VfBvmvgJzH+JXmPyL5GHycLx/
+VeZtlPvKKPsOR1+F+Y69Zr/A5MWvMPlxaHwHyzjPOxz3W2Hu9032D7O++BUm
+/y55mDzM/mXePkInzS9arW7V
+      "]]}}, {}, {}, {}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0., 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0., 100.}, {0, 8.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.740318634418932*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"fcb84535-6a2d-4e9d-91d5-f6aedbff3194"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"f", "[", "x", "]"}]], "Input",
+ CellChangeTimes->{
+  3.74031970934624*^9, {3.740319751480296*^9, 3.7403198090165863`*^9}, {
+   3.740319932914053*^9, 
+   3.7403199446282463`*^9}},ExpressionUUID->"a764e44a-505a-41b8-9f86-\
+69d1a4c90602"]
+},
+WindowSize->{808, 755},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 400, 9, 30, "Input",ExpressionUUID->"8a086ad2-65a5-4cc5-9696-5e8644113600"],
+Cell[983, 33, 1741, 45, 250, "Output",ExpressionUUID->"fcb84535-6a2d-4e9d-91d5-f6aedbff3194"]
+}, Open  ]],
+Cell[2739, 81, 259, 6, 30, "Input",ExpressionUUID->"a764e44a-505a-41b8-9f86-69d1a4c90602"]
+}
+]
+*)
+
