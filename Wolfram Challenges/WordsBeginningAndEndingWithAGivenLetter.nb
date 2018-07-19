@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     70960,       1688]
-NotebookOptionsPosition[     51678,       1329]
-NotebookOutlinePosition[     67126,       1628]
-CellTagsIndexPosition[     67055,       1623]
+NotebookDataLength[     70626,       1664]
+NotebookOptionsPosition[     50965,       1296]
+NotebookOutlinePosition[     66413,       1595]
+CellTagsIndexPosition[     66342,       1590]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -604,7 +604,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{50., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "OSLControlActive",
              StripOnInput->False]}, Dynamic[
@@ -635,7 +636,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{56., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "OSLControlActive",
              StripOnInput->False]}, Dynamic[
@@ -759,86 +761,9 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"StringMatchQ", "[", 
-   RowBox[{
-    RowBox[{"#", " ", "&"}], ",", 
-    RowBox[{"\"\<a\>\"", "\:02dc\:02dc___\:02dc\:02dc", "\"\<a\>\""}]}], 
-   "]"}], "/@", 
-  RowBox[{"WordList", "[", "]"}]}]], "Input",
- CellLabel->"In[4]:=",ExpressionUUID->"0ddbb1e1-6a94-4123-a27f-a3d305a78e25"],
-
-Cell[BoxData[
- TemplateBox[{
-  "StringMatchQ","strse",
-   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
-\"}]\\) in \\!\\(\\*RowBox[{\\\"StringMatchQ\\\", \\\"[\\\", RowBox[{RowBox[{\
-\\\"#1\\\", \\\"&\\\"}], \\\",\\\", \
-RowBox[{SuperscriptBox[\\\"\\\\\\\"a\\\\\\\"\\\", \\\"2\\\"], \\\" \\\", \\\"\
-\:02dc\:02dc___\:02dc\:02dc\\\"}]}], \\\"]\\\"}]\\).\"",2,4,7,
-   26373943973578172481,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellLabel->
-  "During evaluation of \
-In[4]:=",ExpressionUUID->"4a4c9313-9d5d-4dab-9c93-c07b5f7e6a94"],
-
-Cell[BoxData[
- TemplateBox[{
-  "StringMatchQ","nonopt",
-   "\"Options expected (instead of \\!\\(\\*RowBox[{SuperscriptBox[\\\"\\\\\\\
-\"a\\\\\\\"\\\", \\\"2\\\"], \\\" \\\", \\\"\:02dc\:02dc___\:02dc\:02dc\\\"}]\
-\\)) beyond position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \
-\\!\\(\\*RowBox[{\\\"StringMatchQ\\\", \\\"[\\\", RowBox[{RowBox[{\\\"#1\\\", \
-\\\"&\\\"}], \\\",\\\", RowBox[{SuperscriptBox[\\\"\\\\\\\"a\\\\\\\"\\\", \
-\\\"2\\\"], \\\" \\\", \\\"\:02dc\:02dc___\:02dc\:02dc\\\"}]}], \
-\\\"]\\\"}]\\). An option must be a rule or a list of rules.\"",2,4,8,
-   26373943973578172481,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellLabel->
-  "During evaluation of \
-In[4]:=",ExpressionUUID->"d474c439-7e1e-47d2-bf32-f2c3152a641c"],
-
-Cell[BoxData[
- TemplateBox[{
-  "StringMatchQ","nonopt",
-   "\"Options expected (instead of \\!\\(\\*RowBox[{SuperscriptBox[\\\"\\\\\\\
-\"a\\\\\\\"\\\", \\\"2\\\"], \\\" \\\", \\\"\:02dc\:02dc___\:02dc\:02dc\\\"}]\
-\\)) beyond position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \
-\\!\\(\\*RowBox[{\\\"StringMatchQ\\\", \\\"[\\\", RowBox[{RowBox[{\\\"#1\\\", \
-\\\"&\\\"}], \\\",\\\", RowBox[{SuperscriptBox[\\\"\\\\\\\"a\\\\\\\"\\\", \
-\\\"2\\\"], \\\" \\\", \\\"\:02dc\:02dc___\:02dc\:02dc\\\"}]}], \
-\\\"]\\\"}]\\). An option must be a rule or a list of rules.\"",2,4,9,
-   26373943973578172481,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellLabel->
-  "During evaluation of \
-In[4]:=",ExpressionUUID->"08946741-49c1-40b1-bc3a-edb237d6a4a0"],
-
-Cell[BoxData[
- TemplateBox[{
-  "StringMatchQ","nonopt",
-   "\"Options expected (instead of \\!\\(\\*RowBox[{SuperscriptBox[\\\"\\\\\\\
-\"a\\\\\\\"\\\", \\\"2\\\"], \\\" \\\", \\\"\:02dc\:02dc___\:02dc\:02dc\\\"}]\
-\\)) beyond position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \
-\\!\\(\\*RowBox[{\\\"StringMatchQ\\\", \\\"[\\\", RowBox[{RowBox[{\\\"#1\\\", \
-\\\"&\\\"}], \\\",\\\", RowBox[{SuperscriptBox[\\\"\\\\\\\"a\\\\\\\"\\\", \
-\\\"2\\\"], \\\" \\\", \\\"\:02dc\:02dc___\:02dc\:02dc\\\"}]}], \
-\\\"]\\\"}]\\). An option must be a rule or a list of rules.\"",2,4,10,
-   26373943973578172481,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellLabel->
-  "During evaluation of \
-In[4]:=",ExpressionUUID->"ebd07949-997b-4cf6-8085-7c106998b5fd"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General","stop",
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"StringMatchQ\\\", \
-\\\"::\\\", \\\"nonopt\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
-during this calculation.\"",2,4,11,26373943973578172481,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellLabel->
-  "During evaluation of \
-In[4]:=",ExpressionUUID->"04ab15a5-5145-49bb-b7c8-5e631b0aac86"],
+  RowBox[{"StringMatchQ", "[", "\"\<a*a\>\"", "]"}], "/@", 
+  RowBox[{"WordList", "[", "]"}]}]], "Input",ExpressionUUID->"0ddbb1e1-6a94-\
+4123-a27f-a3d305a78e25"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -849,64 +774,20 @@ Cell[BoxData[
         TagBox[
          RowBox[{"{", 
           RowBox[{
-           RowBox[{
-            RowBox[{"StringMatchQ", "[", 
-             RowBox[{
-              RowBox[{"#1", "&"}], ",", 
-              RowBox[{
-               SuperscriptBox["\<\"a\"\>", "2"], " ", 
-               "\:02dc\:02dc___\:02dc\:02dc"}]}], "]"}], "[", "\<\"a\"\>", 
-            "]"}], ",", 
-           RowBox[{
-            RowBox[{"StringMatchQ", "[", 
-             RowBox[{
-              RowBox[{"#1", "&"}], ",", 
-              RowBox[{
-               SuperscriptBox["\<\"a\"\>", "2"], " ", 
-               "\:02dc\:02dc___\:02dc\:02dc"}]}], "]"}], "[", "\<\"aah\"\>", 
-            "]"}], ",", 
-           RowBox[{
-            RowBox[{"StringMatchQ", "[", 
-             RowBox[{
-              RowBox[{"#1", "&"}], ",", 
-              RowBox[{
-               SuperscriptBox["\<\"a\"\>", "2"], " ", 
-               "\:02dc\:02dc___\:02dc\:02dc"}]}], "]"}], 
-            "[", "\<\"aardvark\"\>", "]"}], ",", 
-           RowBox[{
-            RowBox[{"StringMatchQ", "[", 
-             RowBox[{
-              RowBox[{"#1", "&"}], ",", 
-              RowBox[{
-               SuperscriptBox["\<\"a\"\>", "2"], " ", 
-               "\:02dc\:02dc___\:02dc\:02dc"}]}], "]"}], "[", "\<\"aback\"\>",
-             "]"}], ",", 
-           TemplateBox[{"40120"},
-            "OutputSizeLimit`Skeleton"], ",", 
-           RowBox[{
-            RowBox[{"StringMatchQ", "[", 
-             RowBox[{
-              RowBox[{"#1", "&"}], ",", 
-              RowBox[{
-               SuperscriptBox["\<\"a\"\>", "2"], " ", 
-               "\:02dc\:02dc___\:02dc\:02dc"}]}], "]"}], 
-            "[", "\<\"zygote\"\>", "]"}], ",", 
-           RowBox[{
-            RowBox[{"StringMatchQ", "[", 
-             RowBox[{
-              RowBox[{"#1", "&"}], ",", 
-              RowBox[{
-               SuperscriptBox["\<\"a\"\>", "2"], " ", 
-               "\:02dc\:02dc___\:02dc\:02dc"}]}], "]"}], 
-            "[", "\<\"zygotic\"\>", "]"}], ",", 
-           RowBox[{
-            RowBox[{"StringMatchQ", "[", 
-             RowBox[{
-              RowBox[{"#1", "&"}], ",", 
-              RowBox[{
-               SuperscriptBox["\<\"a\"\>", "2"], " ", 
-               "\:02dc\:02dc___\:02dc\:02dc"}]}], "]"}], 
-            "[", "\<\"zymurgy\"\>", "]"}]}], "}"}],
+          "False", ",", "False", ",", "False", ",", "False", ",", "False", 
+           ",", "False", ",", "False", ",", "False", ",", "False", ",", 
+           "False", ",", "False", ",", "False", ",", "False", ",", "False", 
+           ",", "False", ",", "False", ",", "False", ",", "False", ",", 
+           "False", ",", "False", ",", "False", ",", "False", ",", "False", 
+           ",", "False", ",", "False", ",", "False", ",", 
+           TemplateBox[{"40075"},
+            "OutputSizeLimit`Skeleton"], ",", "False", ",", "False", ",", 
+           "False", ",", "False", ",", "False", ",", "False", ",", "False", 
+           ",", "False", ",", "False", ",", "False", ",", "False", ",", 
+           "False", ",", "False", ",", "False", ",", "False", ",", "False", 
+           ",", "False", ",", "False", ",", "False", ",", "False", ",", 
+           "False", ",", "False", ",", "False", ",", "False", ",", "False", 
+           ",", "False"}], "}"}],
          Short[#, 5]& ],
         BaseStyle->{Deployed -> False},
         StripOnInput->False]},
@@ -949,7 +830,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{50., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "OSLControlActive",
              StripOnInput->False]}, Dynamic[
@@ -961,7 +843,7 @@ Cell[BoxData[
            BaselinePosition->Baseline,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 4, 26373943973578172481, 5/2],
+            OutputSizeLimit`Defer, 6, 26374061597620925795, 5/2],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -980,7 +862,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{56., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "OSLControlActive",
              StripOnInput->False]}, Dynamic[
@@ -992,7 +875,7 @@ Cell[BoxData[
            BaselinePosition->Baseline,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 4, 26373943973578172481, 5 2],
+            OutputSizeLimit`Defer, 6, 26374061597620925795, 5 2],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -1011,7 +894,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{42., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "OSLControlActive",
              StripOnInput->False]}, Dynamic[
@@ -1023,7 +907,7 @@ Cell[BoxData[
            BaselinePosition->Baseline,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 4, 26373943973578172481, Infinity],
+            OutputSizeLimit`Defer, 6, 26374061597620925795, Infinity],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -1042,7 +926,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{74., {0., 8.}}],
               StripOnInput->False,
               DynamicUpdating->True], "OSLControlActive",
              StripOnInput->False]}, Dynamic[
@@ -1091,11 +976,85 @@ Cell[BoxData[
     StripOnInput->False],
    Deploy,
    DefaultBaseStyle->"Deploy"],
-  If[26373943973578172481 === $SessionID, 
-   Out[4], Message[
+  If[26374061597620925795 === $SessionID, 
+   Out[6], Message[
      MessageName[Syntax, "noinfoker"]]; Missing["NotAvailable"]; 
    Null]]], "Output",
- CellLabel->"Out[4]=",ExpressionUUID->"3c481a7c-9519-456e-a860-e52ebd97bcbd"]
+ CellLabel->"Out[6]=",ExpressionUUID->"a1e0b892-ec2a-4f5d-a19a-3dc39a6eb36c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringMatchQ", "[", 
+  RowBox[{"\"\<anta\>\"", ",", 
+   RowBox[{"x", "~~", "___", "~~", "x"}]}], "]"}]], "Input",
+ CellLabel->"In[12]:=",ExpressionUUID->"e22e3ba0-c0a4-45fd-a745-3609e4580c1f"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringExpression","invld",
+   "\"Element \\!\\(\\*RowBox[{\\\"x\\\"}]\\) is not a valid string or \
+pattern element in \\!\\(\\*RowBox[{\\\"x\\\", \\\"~~\\\", \\\"___\\\", \
+\\\"~~\\\", \\\"x\\\"}]\\).\"",2,12,17,26374061597620925795,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[12]:=",ExpressionUUID->"607ba349-6355-45d5-bed8-dc05f82386df"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"StringCases", "[", 
+  RowBox[{
+   RowBox[{"WordList", "[", "]"}], ",", 
+   RowBox[{"x", "~~", "___", "~~", "x"}]}], "]"}]], \
+"Input",ExpressionUUID->"eb0b3220-d7e4-47dd-8629-13eb888e9028"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"StringCases", "[", 
+   RowBox[{"\"\<a\>\"", "~~", "___", "~~", "\"\<a\>\""}], "]"}], "[", 
+  "\"\<abcadcacba\>\"", "]"}]], "Input",
+ CellLabel->"In[48]:=",ExpressionUUID->"12bb516f-0225-4c3a-a1f2-c4571b18f2cc"],
+
+Cell[BoxData[
+ RowBox[{"{", "\<\"abcadcacba\"\>", "}"}]], "Output",
+ CellLabel->"Out[48]=",ExpressionUUID->"832acb2c-5389-4151-afb9-741fa72a329f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DictionaryLookup", "[", 
+  RowBox[{"\"\<a\>\"", "~~", "___", "~~", "\"\<a\>\""}], "]"}]], "Input",
+ CellLabel->"In[54]:=",ExpressionUUID->"be1008a6-7580-4580-94d2-c838c69ec78e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"abracadabra\"\>", ",", "\<\"abscissa\"\>", 
+   ",", "\<\"acacia\"\>", ",", "\<\"academia\"\>", ",", "\<\"acrophobia\"\>", 
+   ",", "\<\"addenda\"\>", ",", "\<\"agenda\"\>", ",", "\<\"agoraphobia\"\>", 
+   ",", "\<\"aha\"\>", ",", "\<\"aka\"\>", ",", "\<\"alfalfa\"\>", 
+   ",", "\<\"alga\"\>", ",", "\<\"algebra\"\>", ",", "\<\"alleluia\"\>", 
+   ",", "\<\"aloha\"\>", ",", "\<\"alpaca\"\>", ",", "\<\"alpha\"\>", 
+   ",", "\<\"alumina\"\>", ",", "\<\"alumna\"\>", ",", "\<\"ambrosia\"\>", 
+   ",", "\<\"ammonia\"\>", ",", "\<\"amnesia\"\>", ",", "\<\"amoeba\"\>", 
+   ",", "\<\"amphora\"\>", ",", "\<\"anaconda\"\>", ",", "\<\"analgesia\"\>", 
+   ",", "\<\"anaphora\"\>", ",", "\<\"anathema\"\>", ",", "\<\"anemia\"\>", 
+   ",", "\<\"anesthesia\"\>", ",", "\<\"angelica\"\>", ",", "\<\"angina\"\>", 
+   ",", "\<\"angora\"\>", ",", "\<\"angostura\"\>", ",", "\<\"anorexia\"\>", 
+   ",", "\<\"antenna\"\>", ",", "\<\"aorta\"\>", ",", "\<\"aphasia\"\>", 
+   ",", "\<\"aphelia\"\>", ",", "\<\"apnea\"\>", ",", "\<\"apocrypha\"\>", 
+   ",", "\<\"apologia\"\>", ",", "\<\"appaloosa\"\>", ",", "\<\"aqua\"\>", 
+   ",", "\<\"arachnophobia\"\>", ",", "\<\"arcana\"\>", ",", "\<\"area\"\>", 
+   ",", "\<\"arena\"\>", ",", "\<\"aria\"\>", ",", "\<\"armada\"\>", 
+   ",", "\<\"aroma\"\>", ",", "\<\"arrhythmia\"\>", ",", "\<\"arugula\"\>", 
+   ",", "\<\"asphyxia\"\>", ",", "\<\"aspidistra\"\>", ",", "\<\"asthma\"\>", 
+   ",", "\<\"ataxia\"\>", ",", "\<\"atria\"\>", ",", "\<\"aura\"\>", 
+   ",", "\<\"aurora\"\>", ",", "\<\"azalea\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[54]=",ExpressionUUID->"69cea45c-ab45-4c48-af86-cdfe5c661655"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -1121,10 +1080,17 @@ Cell[BoxData[
 
 Cell[BoxData[""], "WCIntroDividerLine"],
 
+Cell["This output is correct.  Must inform Wolfram to check", "Text",ExpressionUUID->"6b89d2ac-d31f-42f7-a314-198a9c240119"],
+
 Cell[BoxData[
  RowBox[{
-  RowBox[{"SameStartEndWords", "[", "char_String", "]"}], ":="}]], "Input",
- CellTags->"NoLabel"]
+  RowBox[{"SameStartEndWords", "[", "char_String", "]"}], ":=", 
+  RowBox[{"DictionaryLookup", "[", 
+   RowBox[{"{", 
+    RowBox[{"\"\<English\>\"", ",", 
+     RowBox[{"char", "~~", "___", "~~", "char"}]}], "}"}], "]"}]}]], "Input",
+ CellTags->"NoLabel",
+ CellLabel->"In[56]:=",ExpressionUUID->"90953701-996d-4a8f-9fc4-8d595e6a0afd"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -1160,7 +1126,8 @@ Cell[BoxData[
            Background -> GrayLevel[1], ImageSize -> {100, 20}, FrameMargins -> 
            0, Alignment -> Center, Appearance -> "Frameless"], Background -> 
           GrayLevel[1], FrameStyle -> RGBColor[0.9961, 0.3098, 0.21569], 
-          RoundingRadius -> 3, Alignment -> Center]]], StandardForm]], 
+          RoundingRadius -> 3, Alignment -> Center]]], StandardForm], 
+      ImageSizeCache -> {112., {13., 19.}}], Appearance -> None, 
      ButtonFunction :> ((
       WolframChallenges`Notebooks`Authoring`Private`$inSubmit$$ = True; (Off[
          MessageName[$CharacterEncoding, "utf8"]]; ((If[
@@ -1286,11 +1253,11 @@ public/symbols/CheckAnswer"]]]],
 api/check"], {"SameStartEndWords"}, "public/pub/p-5b1a75a2578cb5d2"]]]]; 
          Null))& )[]); 
       WolframChallenges`Notebooks`Authoring`Private`$inSubmit$$ = False; 
-      Null)& )[], Appearance -> None, Method -> "Queued", Evaluator -> 
-     Automatic], 
+      Null)& )[], Evaluator -> Automatic, Method -> "Queued"], 
+    DynamicModuleValues :> {}, 
     Initialization :> {
-     WolframChallenges`Notebooks`Authoring`Private`$inSubmit$$ = False}, 
-    DynamicModuleValues :> {}],TemplateBox[{10}, "Spacer1"],DynamicBox[
+     WolframChallenges`Notebooks`Authoring`Private`$inSubmit$$ = False}],
+   TemplateBox[{10}, "Spacer1"],DynamicBox[
     ToBoxes[
      Refresh[Off[
         MessageName[$CharacterEncoding, "utf8"]]; If[
@@ -1616,13 +1583,13 @@ CellTagsIndex->{
  "NoLabel"->{
   Cell[14579, 435, 48, 1, 34, "Input",ExpressionUUID->"f121b09d-0303-4423-9dd3-3033765409d4",
    CellTags->"NoLabel"],
-  Cell[42262, 1123, 121, 3, 34, "Input",ExpressionUUID->"90953701-996d-4a8f-9fc4-8d595e6a0afd",
+  Cell[41270, 1084, 357, 8, 61, "Input",ExpressionUUID->"90953701-996d-4a8f-9fc4-8d595e6a0afd",
    CellTags->"NoLabel"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"NoLabel", 66791, 1615}
+ {"NoLabel", 66078, 1582}
  }
 *)
 (*NotebookFileOutline
@@ -1673,23 +1640,32 @@ Cell[14579, 435, 48, 1, 34, "Input",ExpressionUUID->"f121b09d-0303-4423-9dd3-303
 Cell[CellGroupData[{
 Cell[14652, 440, 274, 6, 34, "Input",ExpressionUUID->"4b6493bb-bf31-458c-ad8e-9dde6805c7e8"],
 Cell[14929, 448, 3687, 53, 59, "Message",ExpressionUUID->"a5204ae2-7423-4ecb-81a6-2e22440d8acf"],
-Cell[18619, 503, 9803, 251, 181, "Output",ExpressionUUID->"0f243b6c-c4cd-4985-9c9c-cdc9f3adf031"]
+Cell[18619, 503, 9899, 253, 181, "Output",ExpressionUUID->"0f243b6c-c4cd-4985-9c9c-cdc9f3adf031"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28459, 759, 317, 8, 34, "Input",ExpressionUUID->"0ddbb1e1-6a94-4123-a27f-a3d305a78e25"],
-Cell[28779, 769, 571, 12, 30, "Message",ExpressionUUID->"4a4c9313-9d5d-4dab-9c93-c07b5f7e6a94"],
-Cell[29353, 783, 743, 14, 48, "Message",ExpressionUUID->"d474c439-7e1e-47d2-bf32-f2c3152a641c"],
-Cell[30099, 799, 743, 14, 48, "Message",ExpressionUUID->"08946741-49c1-40b1-bc3a-edb237d6a4a0"],
-Cell[30845, 815, 744, 14, 48, "Message",ExpressionUUID->"ebd07949-997b-4cf6-8085-7c106998b5fd"],
-Cell[31592, 831, 408, 9, 24, "Message",ExpressionUUID->"04ab15a5-5145-49bb-b7c8-5e631b0aac86"],
-Cell[32003, 842, 9594, 255, 245, "Output",ExpressionUUID->"3c481a7c-9519-456e-a860-e52ebd97bcbd"]
+Cell[28555, 761, 186, 4, 34, "Input",ExpressionUUID->"0ddbb1e1-6a94-4123-a27f-a3d305a78e25"],
+Cell[28744, 767, 8499, 215, 233, "Output",ExpressionUUID->"a1e0b892-ec2a-4f5d-a19a-3dc39a6eb36c"]
 }, Open  ]],
-Cell[41612, 1100, 605, 19, 66, "WCIntroDivider",ExpressionUUID->"02a91c67-071f-44d9-bdbf-453280deb2bc"],
-Cell[42220, 1121, 39, 0, 44, "WCIntroDividerLine",ExpressionUUID->"eba84fe0-36e9-46ce-b926-d0aea2b5e087"],
-Cell[42262, 1123, 121, 3, 34, "Input",ExpressionUUID->"90953701-996d-4a8f-9fc4-8d595e6a0afd",
+Cell[CellGroupData[{
+Cell[37280, 987, 216, 4, 34, "Input",ExpressionUUID->"e22e3ba0-c0a4-45fd-a745-3609e4580c1f"],
+Cell[37499, 993, 421, 9, 24, "Message",ExpressionUUID->"607ba349-6355-45d5-bed8-dc05f82386df"]
+}, Open  ]],
+Cell[37935, 1005, 213, 5, 34, "Input",ExpressionUUID->"eb0b3220-d7e4-47dd-8629-13eb888e9028"],
+Cell[CellGroupData[{
+Cell[38173, 1014, 245, 5, 34, "Input",ExpressionUUID->"12bb516f-0225-4c3a-a1f2-c4571b18f2cc"],
+Cell[38421, 1021, 146, 2, 38, "Output",ExpressionUUID->"832acb2c-5389-4151-afb9-741fa72a329f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38604, 1028, 201, 3, 34, "Input",ExpressionUUID->"be1008a6-7580-4580-94d2-c838c69ec78e"],
+Cell[38808, 1033, 1670, 23, 221, "Output",ExpressionUUID->"69cea45c-ab45-4c48-af86-cdfe5c661655"]
+}, Open  ]],
+Cell[40493, 1059, 605, 19, 66, "WCIntroDivider",ExpressionUUID->"02a91c67-071f-44d9-bdbf-453280deb2bc"],
+Cell[41101, 1080, 39, 0, 44, "WCIntroDividerLine",ExpressionUUID->"eba84fe0-36e9-46ce-b926-d0aea2b5e087"],
+Cell[41143, 1082, 124, 0, 29, "Text",ExpressionUUID->"6b89d2ac-d31f-42f7-a314-198a9c240119"],
+Cell[41270, 1084, 357, 8, 61, "Input",ExpressionUUID->"90953701-996d-4a8f-9fc4-8d595e6a0afd",
  CellTags->"NoLabel"]
 }, Open  ]],
-Cell[42398, 1129, 9276, 198, 101, "SubmitRow",ExpressionUUID->"5e372f97-df78-4d39-97fc-72dfa5c1e041"]
+Cell[41642, 1095, 9319, 199, 101, "SubmitRow",ExpressionUUID->"5e372f97-df78-4d39-97fc-72dfa5c1e041"]
 }
 ]
 *)
